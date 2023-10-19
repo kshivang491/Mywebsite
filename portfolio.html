@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivang Kushwaha</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<!-- <style>
+    /* body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    } */
+
+    .heading {
+        /* background: #333; */
+        /* color: #fff; */
+        /* text-align: center; */
+        padding: 20px;
+        display: flex;
+        /* align-content: space-between; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .heading h2 {
+        font-size: 44px;
+        font-family: Poppins, Helvetica, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: rgb(245, 245, 245);
+    }
+
+    .heading p {
+        /* color: #fff; */
+        font-family: Poppins, Helvetica, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        /* color: rgb(245, 245, 245); */
+        color: rgb(170, 170, 170);
+        font-weight: 400;
+        font-size: 14px;
+        margin: 1.33em 0px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project {
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .description_para {
+        padding: 8vw;
+        font-family: 'Poppins', Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.75em;
+        color: #d5d5d5;
+        text-align: left;
+    }
+
+    .project img {
+        width: 40vw;
+        height: auto;
+        object-fit: cover;
+        border: 2px solid #333;
+    }
+
+    @media (max-width: 768px) {
+        .project img {
+            width: 75vw;
+            height: auto;
+        }
+    }
+
+    .project-description {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        z-index: 999;
+        overflow: auto;
+    }
+
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .close:hover {
+        background-color: #333;
+        border-radius: 3px;
+    }
+</style> -->
+
+<body>
+    <section>
+        <div id="home_page_section">
+            <div id="main_container" class="usual_width">
+                <div><input type="checkbox" id="menu-toggle">
+                    <nav class="navbar">
+                        <div class="logo">Shivang Kushwaha</div>
+                        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                        <ul class="nav-links">
+                            <li><a href="./index.html">About Me</a></li>
+                            <li><a style="color:  rgb(243, 168, 7);" href="./portfolio.html">Portfolio</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="heading">
+                    <h2>Personal Projects</h2>
+                    <p>My Projects</p>
+                </div>
+                <div>
+                    <div class="project-container">
+                        <div class="project">
+                            <img src="./static/treeswift.png" alt="Project 1">
+                            <div class="description">
+                                <div class="description_para">
+                                    <b>Treeswift</b> is a platform for the adventurous at heart, designed to bring you
+                                    closer to the wonders of the wild and the thrill of wildlife watching. Its platform
+                                    has been developed using the Django framework, coupled with an extensive railways
+                                    online database, ensuring seamless navigation and a user-friendly experience.
+                                    <br><br>
+
+                                    <b>Key Features:</b><br>
+
+                                    <b>Homepage Exploration:</b> Explore our captivating homepage, where you can immerse
+                                    yourself in the enchanting world of wild creatures. Dive into diverse sections
+                                    dedicated to wildlife and environmental challenges, enriching your understanding of
+                                    the natural world. Participate in thought-provoking discussions and initiatives that
+                                    promote conservation and awareness. <br><br>
+
+                                    <b>Wildlife Challenges:</b> Fuel your passion for the great outdoors and test your
+                                    knowledge and skills in our engaging wildlife challenges. Compete, learn, and
+                                    interact with a community of like-minded individuals. Challenge yourself, unlock
+                                    your potential, and win exciting prizes. <br><br>
+
+                                    <b>Exciting Tours:</b> Explore our captivating homepage, where you can immerse
+                                    yourself in
+                                    the enchanting world of wild creatures. Dive into diverse sections dedicated to
+                                    wildlife and environmental challenges, enriching your understanding of the natural
+                                    world. Participate in thought-provoking discussions and initiatives that promote
+                                    conservation and awareness. <br><br>
+
+                                    <b>Effortless Booking:</b> Booking your dream wildlife tour is a breeze with our
+                                    intuitive
+                                    and secure booking system. Browse through our selection, select your desired tour,
+                                    and make a reservation in just a few clicks. Our platform is designed to ensure a
+                                    seamless and hassle-free booking experience, allowing you to focus on the excitement
+                                    of your upcoming adventure. <br><br>
+
+                                    <b>About WildSwift Explorers:</b><br>
+
+                                    WildSwift Explorers is a passion project, a labor of love aimed at bridging the gap
+                                    between humanity and the natural world. We are dedicated to promoting eco-friendly
+                                    tourism, raising awareness about wildlife conservation, and fostering a strong sense
+                                    of community among nature lovers. <br><br>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img src="./static/ecomsearch.png" alt="Project 2">
+                            <div class="description">
+                                <div class="description_para">
+                                    EcomSearch is an e-commerce platform that takes online shopping to
+                                    the next level. With the power of web scraping technology, we aggregate product
+                                    listings from popular e-commerce giants like Amazon, Flipkart, Snapdeal.
+                                    Its aim is to simplify your shopping experience, provide you with in-depth
+                                    product information, and offer a seamless ordering process. <br><br>
+
+                                    <b>Key Features:</b> <br>
+
+                                    <b>1. Comprehensive Product Search:</b><br><br>
+                                    EcomSearch is your one-stop shop for all your retail needs. Whether you're
+                                    hunting for books, electronics, fashion, or any other product, our search feature
+                                    scours the web to present you with a comprehensive list of options. <br>
+
+                                    <b> 2. Compare and Conquer:</b>
+                                    Ever wonder if you're getting the best deal? We've got you covered. With our
+                                    intelligent comparison tool, you can easily see prices, ratings, and reviews from
+                                    multiple sources. Make informed decisions and save money on your purchases. <br>
+
+                                    <b>3. Real Orders, Real Confidence:</b>
+                                    Though EcomSearch is a dummy website, you can make a "real" order with confidence.
+                                    <br>
+
+                                    <b>4. Time-Saving:</b>
+                                    EcomSearch eliminates the need to hop between different websites, saving you time
+                                    and effort. <br><br>
+
+
+
+                                    </b> About EcomSearch:</b> <br>
+
+                                    EcomSearch is created with a mission to simplify your online shopping experience.
+                                    Our dedication to providing reliable, accurate, and real-time product data
+                                    comparison allows you to make smart choices while shopping online. Whether you're a
+                                    seasoned online shopper or new to the e-commerce world, EcomSearch is here to ensure
+                                    you shop with confidence.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img src="./static/titanicsurvivorprediction.jpg" alt="Project 2">
+                            <div class="description">
+                                <div class="description_para">
+                                    <b>Titanic Survival: Predict with 83% Accuracy!</b> <br><br>
+
+                                    Introducing my "Titanic Survivors Prediction Machine Learning
+                                    Model." This predictive tool utilizes machine learning
+                                    algorithms to accurately estimate the chances of survival for individuals. <br><br>
+
+                                    <b> Key Features:</b><br>
+
+                                    <b>1. Historical Accuracy:</b>
+                                    This model has been trained on extensive data with leveraging key passenger
+                                    information such as age, class, gender, and more.
+                                    With a remarkable 83% prediction accuracy. <br>
+
+                                    <b> 2. Personalized Predictions:</b>
+                                    Enter the details of any individual, and the model will swiftly calculate their
+                                    survival prediction based on the criteria available in the dataset. Simply provide
+                                    the relevant information, and the model will do the rest. <br><br>
+
+                                    <b> About Titanic Survivors Prediction Model:</b><br>
+
+                                    This is a project that merges historical intrigue with the machine learning. It's an
+                                    exploration of the past through the lens of the future, offering you the ability to
+                                    step into the shoes of those who sailed on the Titanic and understand their chances
+                                    of survival. <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img src="./static/homepriceprediction.jpg" alt="Project 2">
+                            <div class="description">
+                                <div class="description_para">
+                                    It is a cutting-edge machine learning model designed to provide accurate home price
+                                    predictions based on a range of crucial factors such as area, number of bedrooms,
+                                    bathrooms, garage space, and more. With it, you have the power to make informed
+                                    decisions about real estate, whether you're buying, selling, or simply curious about
+                                    property values. <br><br>
+
+                                    <b>About HomePriceAI:</b> <br>
+
+                                    This model is the result of merging the world of real estate with the capabilities
+                                    of advanced machine learning. It's a tool that offers you an analytical edge, making
+                                    sense of the complex real estate market by providing accurate and data-backed
+                                    property price predictions.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <div class="close" onclick="closeDescription()">X Close</div>
+                        <div class="description-content"></div>
+                    </div>
+                </div>
+
+
+                <div class="footer_section">
+                    <div class="links">
+                        <span><a class="link" target="_blank"
+                                href="https://www.linkedin.com/in/shivang-kushwaha-0a4661253/">LinkedIn</a></span>
+                        <span><a href="mailto: kshivang491@gmail.com"></a>Gmail</span>
+                        <span class="link">WhatsUp</span>
+                        <span><a class="link" target="_blank" href="https://github.com/kshivang491">Github</a></span>
+                        <span class="link">Phone</span>
+                    </div>
+                    <div class="copyright_tag">© 2021 All rights reserved. Shivang Kushwaha</div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <script>
+        const projectContainers = document.querySelectorAll(".project");
+        const descriptionContainer = document.querySelector(".project-description");
+        const descriptionContent = document.querySelector(".description-content");
+
+        projectContainers.forEach((project, index) => {
+            project.addEventListener("click", () => {
+                const description = project.querySelector(".description").innerHTML;
+                descriptionContent.innerHTML = description;
+                descriptionContainer.style.display = "block";
+            });
+        });
+
+        function closeDescription() {
+            descriptionContainer.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
